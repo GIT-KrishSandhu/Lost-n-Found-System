@@ -263,7 +263,7 @@ function Register() {
             <form onSubmit={handleSubmit}>
               <div className="field">
                 <label>Full Name</label>
-                <input name="name" placeholder="Krish Sandhu" onChange={handleChange} required />
+                <input name="name" placeholder="Full Name" onChange={handleChange} required />
               </div>
               <div className="field">
                 <label>Email Address</label>
