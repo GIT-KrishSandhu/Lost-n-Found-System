@@ -14,7 +14,7 @@ function Register() {
     e.preventDefault();
     setLoading(true);
     try {
-      await axios.post("http://localhost:3000/api/register", form);
+      await axios.post("https://lost-found-backend-kb2t.onrender.com/api/register", form);
       navigate("/login");
     } catch (err) {
       setError(err.response?.data?.msg || "Registration failed");

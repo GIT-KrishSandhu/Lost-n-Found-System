@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
-const BASE = "http://localhost:3000";
+const BASE = "https://lost-found-backend-kb2t.onrender.com";
 
 function Dashboard() {
   const [items, setItems] = useState([]);
